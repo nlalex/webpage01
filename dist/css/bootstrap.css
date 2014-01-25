@@ -7116,3 +7116,19 @@ td.visible-print {
     display: none !important;
   }
 }
+
+/* Custom CSS */
+#big_pic
+{
+    background: url("https://fisher.osu.edu/blogs/gradlife/files/The-Ohio-State-Buckeyes-Football-Team.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 0;
+}
+
+#trans_nav
+{
+    background: transparent;
+    padding-top: 5px;
+    margin-top: 0;
+}
