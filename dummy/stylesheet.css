@@ -1,0 +1,16 @@
+.container {
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    position: relative;
+}
+
+.container .name {
+    position: absolute;
+    bottom: 0;
+}
+.name h1 {
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: -10px;
+}

@@ -50,38 +50,47 @@
 
 // Overrides
 #big_pic {
-    background: url("https://fisher.osu.edu/blogs/gradlife/files/The-Ohio-State-Buckeyes-Football-Team.jpg");
-    /*background: url("https://scontent-a-iad.xx.fbcdn.net/hphotos-ash3/1463218_10201641673816675_1657698180_n.jpg");*/
-    background-size: cover;
-    background-position: center;
-    padding-top: 0;
-    margin-bottom: .5%;
+  background: url("https://fisher.osu.edu/blogs/gradlife/files/The-Ohio-State-Buckeyes-Football-Team.jpg");
+  /*background: url("https://scontent-b-iad.xx.fbcdn.net/hphotos-frc3/530002_3242793461738_878832920_n.jpg");*/
+  background-size: cover;
+  background-position: center 55%;
+  padding-top: 0;
+  margin-bottom: .5%;
 }
-
 #big_pic * {
-    color: @gray-lighter;
-    
+  color: #eeeeee;
+  text-shadow:
+    -.75px -.75px 0 @gray-dark,
+    -.75px  .75px 0 @gray-dark,
+     .75px -.75px 0 @gray-dark,
+     .75px  .75px 0 @gray-dark;
 }
-
 #trans_nav {
-   // background: transparent;
-    padding-top: 5px;
-    margin-top: 0;
+  padding-top: 5px;
+  margin-top: 0;
 }
-
 .active > a * {
-    background-color: transparent;
+  background-color: transparent;
 }
-
 #quote * {
-    margin: 0;
+  margin: 0;
+  padding: 0;
 }
-
+#quote > h3 {
+    padding-top: 3%;
+}
 #quote > h1 {
-    padding-bottom: 5%;
+  padding-bottom: 3%;
 }
-
 nav {
-    background: rgba(238,238,238,.3);
-    color: transparent;
+  background: rgba(238, 238, 238, 0.3);
+  color: transparent;
+}
+#brand {
+    text-shadow:
+    -.3px -.3px 0 @gray-dark,
+    -.3px  .3px 0 @gray-dark,
+     .3px -.3px 0 @gray-dark,
+     .3px  .3px 0 @gray-dark;
+     font-size: @font-size-h3;
 }

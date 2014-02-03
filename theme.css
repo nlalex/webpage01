@@ -5956,14 +5956,18 @@ td.visible-print {
 }
 #big_pic {
   background: url("https://fisher.osu.edu/blogs/gradlife/files/The-Ohio-State-Buckeyes-Football-Team.jpg");
-  /*background: url("https://scontent-a-iad.xx.fbcdn.net/hphotos-ash3/1463218_10201641673816675_1657698180_n.jpg");*/
+  /*background: url(./img/Woolaroc.jpg);
+  background: #302D2C;*/
   background-size: cover;
-  background-position: center;
+  background-position: center 45%;
   padding-top: 0;
-  margin-bottom: .5%;
+  /*margin-bottom: .5%;*/
+  position: relative;
+  min-height: 250px;
 }
 #big_pic * {
   color: #eeeeee;
+  /*text-shadow: -0.75px -0.75px 0 #333333, -0.75px 0.75px 0 #333333, 0.75px -0.75px 0 #333333, 0.75px 0.75px 0 #333333;*/
 }
 #trans_nav {
   padding-top: 5px;
@@ -5974,11 +5978,36 @@ td.visible-print {
 }
 #quote * {
   margin: 0;
+  padding: 0;
+}
+#quote > h3 {
+  padding-top: 3%;
 }
 #quote > h1 {
-  padding-bottom: 5%;
+  padding-bottom: 3%;
 }
 nav {
   background: rgba(238, 238, 238, 0.3);
   color: transparent;
+}
+#brand {
+  /*text-shadow: -0.3px -0.3px 0 #333333, -0.3px 0.3px 0 #333333, 0.3px -0.3px 0 #333333, 0.3px 0.3px 0 #333333;*/
+  font-size: 24px;
+}
+#name {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: -1.06%;
+}
+#name > h1 {
+    font-family: 'Oswald';
+    font-size: 3em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: white;
+}
+.dropdown-menu {
+    background: rgba(238, 238, 238, 0.3);
+    
 }
